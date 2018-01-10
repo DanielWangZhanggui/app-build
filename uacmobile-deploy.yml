@@ -19,4 +19,4 @@ spec:
             memory: 4Gi
         imagePullPolicy: Always
       imagePullSecrets:
-      - name: oracle-repo
+      - name: wrelease
