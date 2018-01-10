@@ -77,4 +77,4 @@ deploy:
         server: $KUBERNETES_MASTER
         token: $KUBERNETES_TOKEN
         insecure-skip-tls-verify: true
-        command: get svc -o jsonpath='{.jsonpath='{.spec.ports[*].nodePort}'}' --namespace=$NS
+        command: get svc -o jsonpath='{.spec.ports[*].nodePort}' --namespace=$NS
